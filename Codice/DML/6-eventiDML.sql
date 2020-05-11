@@ -1,0 +1,276 @@
+--%%%%% EVENTI
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Napoli',				to_date('12/10/2019','dd/mm/yyyy'),to_date('19/10/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Benevento',				to_date('06/10/2019','dd/mm/yyyy'),to_date('13/10/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Avellino',				to_date('24/10/2019','dd/mm/yyyy'),to_date('28/10/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Caserta',				to_date('23/10/2019','dd/mm/yyyy'),to_date('27/10/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Salerno',				to_date('30/10/2019','dd/mm/yyyy'),to_date('06/11/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Casalnuovo di Napoli',	to_date('07/10/2019','dd/mm/yyyy'),to_date('13/10/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Giugliano',				to_date('18/10/2019','dd/mm/yyyy'),to_date('22/10/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Torre del Greco',		to_date('16/10/2019','dd/mm/yyyy'),to_date('20/10/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Pozzuoli',				to_date('19/10/2019','dd/mm/yyyy'),to_date('25/10/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Casoria',				to_date('22/10/2019','dd/mm/yyyy'),to_date('28/10/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Afragola',				to_date('25/10/2019','dd/mm/yyyy'),to_date('30/10/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Acerra',				to_date('28/10/2019','dd/mm/yyyy'),to_date('01/11/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Portici',				to_date('09/10/2019','dd/mm/yyyy'),to_date('14/10/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Ercolano',				to_date('01/10/2019','dd/mm/yyyy'),to_date('06/10/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Aversa',				to_date('26/10/2019','dd/mm/yyyy'),to_date('30/10/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Napoli',				to_date('12/11/2019','dd/mm/yyyy'),to_date('19/11/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Benevento',				to_date('06/11/2019','dd/mm/yyyy'),to_date('13/11/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Avellino',				to_date('24/11/2019','dd/mm/yyyy'),to_date('28/11/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Caserta',				to_date('23/11/2019','dd/mm/yyyy'),to_date('27/11/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Salerno',				to_date('30/11/2019','dd/mm/yyyy'),to_date('06/12/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Casalnuovo di Napoli',	to_date('07/11/2019','dd/mm/yyyy'),to_date('13/11/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Giugliano',				to_date('18/11/2019','dd/mm/yyyy'),to_date('22/11/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Torre del Greco',		to_date('16/11/2019','dd/mm/yyyy'),to_date('20/11/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Pozzuoli',				to_date('19/11/2019','dd/mm/yyyy'),to_date('25/11/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Casoria',				to_date('22/11/2019','dd/mm/yyyy'),to_date('28/11/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Afragola',				to_date('25/11/2019','dd/mm/yyyy'),to_date('30/11/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Acerra',				to_date('28/11/2019','dd/mm/yyyy'),to_date('01/12/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Portici',				to_date('09/11/2019','dd/mm/yyyy'),to_date('14/11/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Ercolano',				to_date('01/11/2019','dd/mm/yyyy'),to_date('06/11/2019','dd/mm/yyyy'));
+INSERT INTO		evento(localita_evento,data_inizio,data_fine)		VALUES('Aversa',				to_date('26/11/2019','dd/mm/yyyy'),to_date('30/11/2019','dd/mm/yyyy'));
+
+
+--%%%%%		TORNEO 
+INSERT INTO		torneo(data_inizio_torneo,localita_torneo,quota,premio,nome_gioco,piattaforma,max_partecipanti)		VALUES(to_date('16/10/2019','dd/mm/yyyy'),'Torre del Greco',	'20','100','Passione estetista','PlayStation 4',30);
+INSERT INTO		torneo(data_inizio_torneo,localita_torneo,quota,premio,nome_gioco,piattaforma,max_partecipanti)		VALUES(to_date('19/10/2019','dd/mm/yyyy'),'Pozzuoli',			'5','150','Titanfall2','Xbox One',13);
+INSERT INTO		torneo(data_inizio_torneo,localita_torneo,quota,premio,nome_gioco,piattaforma,max_partecipanti)		VALUES(to_date('22/10/2019','dd/mm/yyyy'),'Casoria',			'20','300','Passione cucina','PlayStation 4',30);
+INSERT INTO		torneo(data_inizio_torneo,localita_torneo,quota,premio,nome_gioco,piattaforma,max_partecipanti)		VALUES(to_date('25/10/2019','dd/mm/yyyy'),'Afragola',			'5','150','PUBG','PC',20);
+INSERT INTO		torneo(data_inizio_torneo,localita_torneo,quota,premio,nome_gioco,piattaforma,max_partecipanti)		VALUES(to_date('28/10/2019','dd/mm/yyyy'),'Acerra',				'5','150','League of legends','PC',20);
+INSERT INTO		torneo(data_inizio_torneo,localita_torneo,quota,premio,nome_gioco,piattaforma,max_partecipanti)		VALUES(to_date('09/10/2019','dd/mm/yyyy'),'Portici',			'7','180','JOJOEOH','PlayStation 4',10);
+INSERT INTO		torneo(data_inizio_torneo,localita_torneo,quota,premio,nome_gioco,piattaforma,max_partecipanti)		VALUES(to_date('01/10/2019','dd/mm/yyyy'),'Ercolano',			'20','100','Passione manicomio','PlayStation 4',5);
+INSERT INTO		torneo(data_inizio_torneo,localita_torneo,quota,premio,nome_gioco,piattaforma,max_partecipanti)		VALUES(to_date('26/10/2019','dd/mm/yyyy'),'Aversa',				'20','100','Rainbow six siege','Xbox One',20);
+INSERT INTO		torneo(data_inizio_torneo,localita_torneo,quota,premio,nome_gioco,piattaforma,max_partecipanti)		VALUES(to_date('12/11/2019','dd/mm/yyyy'),'Napoli',				'20','100','Tekken7','PlayStation 4',20);
+INSERT INTO		torneo(data_inizio_torneo,localita_torneo,quota,premio,nome_gioco,piattaforma,max_partecipanti)		VALUES(to_date('06/11/2019','dd/mm/yyyy'),'Benevento',			'20','100','Dissidia NT','PlayStation 4',5);
+INSERT INTO		torneo(data_inizio_torneo,localita_torneo,quota,premio,nome_gioco,piattaforma,max_partecipanti)		VALUES(to_date('24/11/2019','dd/mm/yyyy'),'Avellino',			'20','100','Pokemon Sword','PlayStation 4',5);
+INSERT INTO		torneo(data_inizio_torneo,localita_torneo,quota,premio,nome_gioco,piattaforma,max_partecipanti)		VALUES(to_date('23/11/2019','dd/mm/yyyy'),'Caserta',			'20','100','Pokemon Shield','PlayStation 4',5);
+INSERT INTO		torneo(data_inizio_torneo,localita_torneo,quota,premio,nome_gioco,piattaforma,max_partecipanti)		VALUES(to_date('30/11/2019','dd/mm/yyyy'),'Salerno',			'20','100','Devil may cry 5','PlayStation 4',5);
+INSERT INTO		torneo(data_inizio_torneo,localita_torneo,quota,premio,nome_gioco,piattaforma,max_partecipanti)		VALUES(to_date('07/11/2019','dd/mm/yyyy'),'Casalnuovo di Napoli','20','100','Dragon''s dogma','PlayStation 4',5);
+INSERT INTO		torneo(data_inizio_torneo,localita_torneo,quota,premio,nome_gioco,piattaforma,max_partecipanti)		VALUES(to_date('18/11/2019','dd/mm/yyyy'),'Giugliano',			'5','150','Doom eternal','Xbox One',20);
+
+
+--%%%%%		DISTRIBUZIONE
+INSERT INTO 	distribuzione(localita_distribuzione,data_inizio_distribuzione)	VALUES('Napoli',				to_date('12/10/2019','dd/mm/yyyy'));
+INSERT INTO 	distribuzione(localita_distribuzione,data_inizio_distribuzione)	VALUES('Benevento',				to_date('06/10/2019','dd/mm/yyyy'));
+INSERT INTO 	distribuzione(localita_distribuzione,data_inizio_distribuzione)	VALUES('Avellino',				to_date('24/10/2019','dd/mm/yyyy'));
+INSERT INTO 	distribuzione(localita_distribuzione,data_inizio_distribuzione)	VALUES('Caserta',				to_date('23/10/2019','dd/mm/yyyy'));
+INSERT INTO 	distribuzione(localita_distribuzione,data_inizio_distribuzione)	VALUES('Salerno',				to_date('30/10/2019','dd/mm/yyyy'));
+INSERT INTO 	distribuzione(localita_distribuzione,data_inizio_distribuzione)	VALUES('Casalnuovo di Napoli',	to_date('07/10/2019','dd/mm/yyyy'));
+INSERT INTO 	distribuzione(localita_distribuzione,data_inizio_distribuzione)	VALUES('Giugliano',				to_date('18/10/2019','dd/mm/yyyy'));
+INSERT INTO 	distribuzione(localita_distribuzione,data_inizio_distribuzione)	VALUES('Torre del Greco',		to_date('16/11/2019','dd/mm/yyyy'));
+INSERT INTO 	distribuzione(localita_distribuzione,data_inizio_distribuzione)	VALUES('Pozzuoli',				to_date('19/11/2019','dd/mm/yyyy'));
+INSERT INTO 	distribuzione(localita_distribuzione,data_inizio_distribuzione)	VALUES('Casoria',				to_date('22/11/2019','dd/mm/yyyy'));
+INSERT INTO 	distribuzione(localita_distribuzione,data_inizio_distribuzione)	VALUES('Afragola',				to_date('25/11/2019','dd/mm/yyyy'));
+INSERT INTO 	distribuzione(localita_distribuzione,data_inizio_distribuzione)	VALUES('Acerra',				to_date('28/11/2019','dd/mm/yyyy'));
+INSERT INTO 	distribuzione(localita_distribuzione,data_inizio_distribuzione)	VALUES('Portici',				to_date('09/11/2019','dd/mm/yyyy'));
+INSERT INTO 	distribuzione(localita_distribuzione,data_inizio_distribuzione)	VALUES('Ercolano',				to_date('01/11/2019','dd/mm/yyyy'));
+INSERT INTO 	distribuzione(localita_distribuzione,data_inizio_distribuzione)	VALUES('Aversa',				to_date('26/11/2019','dd/mm/yyyy'));
+
+
+--%%%%%		PARTECIPA
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Torre del Greco',	'MRTCLD94L12F839L',to_date('16/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Torre del Greco',	'LMRGNM92E20A783Z',to_date('16/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Torre del Greco',	'VREDMN90B10A783V',to_date('16/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Torre del Greco',	'DFRSTR99B52A509N',to_date('16/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Torre del Greco',	'DMAGCM94E30A783J',to_date('16/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Torre del Greco',	'VLNFTN94T55A783G',to_date('16/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Torre del Greco',	'PRTVCN89S13F839N',to_date('16/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Torre del Greco',	'CRTRND86R18F839V',to_date('16/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Pozzuoli',			'SRNNTT90P56F839F',to_date('19/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Pozzuoli',			'TSCCTT97M20F924C',to_date('19/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Pozzuoli',			'VNCSTT89L29L083F',to_date('19/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Pozzuoli',			'ZZRLRA95H23B905G',to_date('19/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Pozzuoli',			'FRRCLI99S09F839H',to_date('19/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Casoria',			'MRTCLD94L12F839L',to_date('22/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Casoria',			'LMRGNM92E20A783Z',to_date('22/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Casoria',			'VREDMN90B10A783V',to_date('22/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Casoria',			'DFRSTR99B52A509N',to_date('22/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Casoria',			'DMAGCM94E30A783J',to_date('22/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Casoria',			'VLNFTN94T55A783G',to_date('22/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Casoria',			'PRTVCN89S13F839N',to_date('22/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Casoria',			'CRTRND86R18F839V',to_date('22/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Afragola',			'SRNNTT90P56F839F',to_date('25/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Afragola',			'TSCCTT97M20F924C',to_date('25/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Afragola',			'VNCSTT89L29L083F',to_date('25/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Acerra',			'ZZRLRA95H23B905G',to_date('28/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Acerra',			'FRRCLI99S09F839H',to_date('28/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Acerra',			'MRTCLD94L12F839L',to_date('28/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Acerra',			'LMRGNM92E20A783Z',to_date('28/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Acerra',			'VREDMN90B10A783V',to_date('28/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Acerra',			'DFRSTR99B52A509N',to_date('28/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Acerra',			'DMAGCM94E30A783J',to_date('28/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Acerra',			'VLNFTN94T55A783G',to_date('28/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Acerra',			'PRTVCN89S13F839N',to_date('28/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Portici',			'CRTRND86R18F839V',to_date('09/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Portici',			'SRNNTT90P56F839F',to_date('09/10/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Ercolano',			'TSCCTT97M20F924C',to_date('01/10/2019','dd/mm/yyyy'));		
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Ercolano',			'VNCSTT89L29L083F',to_date('01/10/2019','dd/mm/yyyy'));			
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Aversa',			'ZZRLRA95H23B905G',to_date('26/10/2019','dd/mm/yyyy'));			
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Aversa',			'FRRCLI99S09F839H',to_date('26/10/2019','dd/mm/yyyy'));			
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Aversa',			'MRTCLD94L12F839L',to_date('26/10/2019','dd/mm/yyyy'));		
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Napoli',			'VLNFTN94T55A783G',to_date('12/11/2019','dd/mm/yyyy'));		
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Napoli',			'PRTVCN89S13F839N',to_date('12/11/2019','dd/mm/yyyy'));		
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Napoli',			'CRTRND86R18F839V',to_date('12/11/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Benevento',			'SRNNTT90P56F839F',to_date('06/11/2019','dd/mm/yyyy'));		
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Benevento',			'TSCCTT97M20F924C',to_date('06/11/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Benevento',			'VNCSTT89L29L083F',to_date('06/11/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Benevento',			'ZZRLRA95H23B905G',to_date('06/11/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Avellino',			'DFRSTR99B52A509N',to_date('24/11/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Avellino',			'DMAGCM94E30A783J',to_date('24/11/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Avellino',			'VLNFTN94T55A783G',to_date('24/11/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Caserta',			'VLNFTN94T55A783G',to_date('23/11/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Caserta',			'VREDMN90B10A783V',to_date('23/11/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Caserta',			'DFRSTR99B52A509N',to_date('23/11/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Salerno',			'MRTCLD94L12F839L',to_date('30/11/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Salerno',			'LMRGNM92E20A783Z',to_date('30/11/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Salerno',			'VREDMN90B10A783V',to_date('30/11/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Casalnuovo di Napoli','DFRSTR99B52A509N',to_date('07/11/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Casalnuovo di Napoli','DMAGCM94E30A783J',to_date('07/11/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Casalnuovo di Napoli','VLNFTN94T55A783G',to_date('07/11/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Casalnuovo di Napoli','PRTVCN89S13F839N',to_date('07/11/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Giugliano',			'CRTRND86R18F839V',to_date('18/11/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Giugliano',			'SRNNTT90P56F839F',to_date('18/11/2019','dd/mm/yyyy'));
+INSERT INTO 	partecipa(loc_eve,cf_cliente_reg,data_inizio)		VALUES('Giugliano',			'TSCCTT97M20F924C',to_date('18/11/2019','dd/mm/yyyy'));
+
+
+--%%%%%		GADGET_DIST
+INSERT INTO		gadget_dist(loc_dist,codice_gad,data_distribuzione,quantita)		VALUES('Napoli',				'123456789123456r',to_date('12/10/2019','dd/mm/yyyy'),'3');
+INSERT INTO		gadget_dist(loc_dist,codice_gad,data_distribuzione,quantita)		VALUES('Benevento',				'123456789123456u',to_date('06/10/2019','dd/mm/yyyy'),'4');
+INSERT INTO		gadget_dist(loc_dist,codice_gad,data_distribuzione,quantita)		VALUES('Avellino',				'123456789123456t',to_date('24/10/2019','dd/mm/yyyy'),'3');
+INSERT INTO		gadget_dist(loc_dist,codice_gad,data_distribuzione,quantita)		VALUES('Caserta',				'123456789123456u',to_date('23/10/2019','dd/mm/yyyy'),'1');
+INSERT INTO		gadget_dist(loc_dist,codice_gad,data_distribuzione,quantita)		VALUES('Salerno',				'123456789123456v',to_date('30/10/2019','dd/mm/yyyy'),'2');
+INSERT INTO		gadget_dist(loc_dist,codice_gad,data_distribuzione,quantita)		VALUES('Casalnuovo di Napoli',	'123456789123456z',to_date('07/10/2019','dd/mm/yyyy'),'3');
+INSERT INTO		gadget_dist(loc_dist,codice_gad,data_distribuzione,quantita)		VALUES('Giugliano',				'1234567891234a67',to_date('18/10/2019','dd/mm/yyyy'),'4');
+INSERT INTO		gadget_dist(loc_dist,codice_gad,data_distribuzione,quantita)		VALUES('Torre del Greco',		'1234567891234b67',to_date('16/11/2019','dd/mm/yyyy'),'1');
+INSERT INTO		gadget_dist(loc_dist,codice_gad,data_distribuzione,quantita)		VALUES('Pozzuoli',				'ajhe567891234o67',to_date('19/11/2019','dd/mm/yyyy'),'3');
+INSERT INTO		gadget_dist(loc_dist,codice_gad,data_distribuzione,quantita)		VALUES('Casoria',				'ajhe567891234n67',to_date('22/11/2019','dd/mm/yyyy'),'4');
+INSERT INTO		gadget_dist(loc_dist,codice_gad,data_distribuzione,quantita)		VALUES('Afragola',				'ajhe567891234m67',to_date('25/11/2019','dd/mm/yyyy'),'5');
+INSERT INTO		gadget_dist(loc_dist,codice_gad,data_distribuzione,quantita)		VALUES('Acerra',				'ajhe567891234l67',to_date('28/11/2019','dd/mm/yyyy'),'3');
+INSERT INTO		gadget_dist(loc_dist,codice_gad,data_distribuzione,quantita)		VALUES('Portici',				'ajhe567891234i67',to_date('09/11/2019','dd/mm/yyyy'),'2');
+INSERT INTO		gadget_dist(loc_dist,codice_gad,data_distribuzione,quantita)		VALUES('Ercolano',				'ajhe567891234h67',to_date('01/11/2019','dd/mm/yyyy'),'1');
+INSERT INTO		gadget_dist(loc_dist,codice_gad,data_distribuzione,quantita)		VALUES('Aversa',				'ajhe567891234g67',to_date('26/11/2019','dd/mm/yyyy'),'4');
+
+
+--%%%%%		OFFERTA
+INSERT INTO		offerta(codice_offerta,data_inizio,data_fine)		VALUES(1 ,to_date('01/10/2019','dd/mm/yyyy'),to_date('01/11/2020','dd/mm/yyyy'));
+INSERT INTO		offerta(codice_offerta,data_inizio,data_fine)		VALUES(2 ,to_date('12/10/2019','dd/mm/yyyy'),to_date('12/11/2020','dd/mm/yyyy'));
+INSERT INTO		offerta(codice_offerta,data_inizio,data_fine)		VALUES(3 ,to_date('14/10/2019','dd/mm/yyyy'),to_date('14/11/2020','dd/mm/yyyy'));
+INSERT INTO		offerta(codice_offerta,data_inizio,data_fine)		VALUES(4 ,to_date('11/10/2019','dd/mm/yyyy'),to_date('11/11/2020','dd/mm/yyyy'));
+INSERT INTO		offerta(codice_offerta,data_inizio,data_fine)		VALUES(5 ,to_date('15/10/2019','dd/mm/yyyy'),to_date('15/11/2020','dd/mm/yyyy'));
+INSERT INTO		offerta(codice_offerta,data_inizio,data_fine)		VALUES(6 ,to_date('15/10/2019','dd/mm/yyyy'),to_date('15/11/2020','dd/mm/yyyy'));
+INSERT INTO		offerta(codice_offerta,data_inizio,data_fine)		VALUES(7 ,to_date('11/10/2019','dd/mm/yyyy'),to_date('11/11/2020','dd/mm/yyyy'));
+INSERT INTO		offerta(codice_offerta,data_inizio,data_fine)		VALUES(8 ,to_date('22/11/2019','dd/mm/yyyy'),to_date('22/12/2020','dd/mm/yyyy'));
+INSERT INTO		offerta(codice_offerta,data_inizio,data_fine)		VALUES(9 ,to_date('11/11/2019','dd/mm/yyyy'),to_date('11/12/2020','dd/mm/yyyy'));
+INSERT INTO		offerta(codice_offerta,data_inizio,data_fine)		VALUES(10,to_date('11/11/2019','dd/mm/yyyy'),to_date('11/12/2020','dd/mm/yyyy'));
+INSERT INTO		offerta(codice_offerta,data_inizio,data_fine)		VALUES(11,to_date('20/11/2019','dd/mm/yyyy'),to_date('20/12/2020','dd/mm/yyyy'));
+INSERT INTO		offerta(codice_offerta,data_inizio,data_fine)		VALUES(12,to_date('30/11/2019','dd/mm/yyyy'),to_date('30/12/2020','dd/mm/yyyy'));
+INSERT INTO		offerta(codice_offerta,data_inizio,data_fine)		VALUES(13,to_date('05/11/2019','dd/mm/yyyy'),to_date('05/12/2020','dd/mm/yyyy'));
+INSERT INTO		offerta(codice_offerta,data_inizio,data_fine)		VALUES(14,to_date('10/11/2019','dd/mm/yyyy'),to_date('10/12/2020','dd/mm/yyyy'));
+INSERT INTO		offerta(codice_offerta,data_inizio,data_fine)		VALUES(15,to_date('15/11/2019','dd/mm/yyyy'),to_date('15/12/2020','dd/mm/yyyy'));
+
+
+--%%%%%		OTTIENE
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(1 ,'MRTCLD94L12F839L');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(2 ,'LMRGNM92E20A783Z');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(3 ,'VREDMN90B10A783V');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(4 ,'DFRSTR99B52A509N');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(5 ,'DMAGCM94E30A783J');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(6 ,'VLNFTN94T55A783G');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(7 ,'PRTVCN89S13F839N');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(8 ,'CRTRND86R18F839V');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(9 ,'SRNNTT90P56F839F');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(10,'TSCCTT97M20F924C');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(11,'VNCSTT89L29L083F');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(12,'ZZRLRA95H23B905G');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(13,'FRRCLI99S09F839H');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(14,'MRTCLD94L12F839L');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(15,'LMRGNM92E20A783Z');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(1 ,'VREDMN90B10A783V');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(2 ,'DFRSTR99B52A509N');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(3 ,'DMAGCM94E30A783J');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(4 ,'VLNFTN94T55A783G');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(5 ,'PRTVCN89S13F839N');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(6 ,'CRTRND86R18F839V');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(7 ,'SRNNTT90P56F839F');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(8 ,'TSCCTT97M20F924C');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(9 ,'VNCSTT89L29L083F');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(10,'ZZRLRA95H23B905G');
+INSERT INTO 	ottiene(cod_off,cf_cliente_reg)		VALUES(11,'FRRCLI99S09F839H');
+
+
+--%%%%%		SOGGETTO
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(1 ,'gz2w8fi4wjhx3nar');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(2 ,'6il6gl938okpjxeo');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(3 ,'renvwiush87dpw26');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(4 ,'r48ymft9ua96aagk');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(5 ,'8y2d33sjsmd4jrqw');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(6 ,'uu3g5qehpdzmlcxl');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(7 ,'jnr9tsa9z427zmr5');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(8 ,'u5yp9wn0j8wxp4tb');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(9 ,'30yxnt7fdj05vwj4');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(10,'43v36xlt376c6hch');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(11,'zsy2pe7djhexq9dj');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(12,'cao5d2gc0ilbr2tb');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(13,'16kfqximd48j3mam');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(14,'rd31wh7nbz7q59nf');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(15,'1mdmse0z3g20qzom');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(1 ,'utec8l2ez39z6t1z');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(2 ,'huwznmbcwsp76jk0');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(3 ,'h0fike4ua40o03te');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(4 ,'rozywndt91wakcfn');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(5 ,'98sbhuws45tv8t49');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(6 ,'dmrbgosmzmaa5hqx');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(7 ,'isj9q8iw0ng6dyn7');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(8 ,'zahv5wnrpa0p874k');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(9 ,'tx1z4xrzstepau5d');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(10,'54ezsh7dig88f6hj');
+INSERT INTO 	soggetto(cod_off,cod_prod)		VALUES(11,'6lir0ccsb1vyrp8d');
+
+--%%%%%		CREA
+INSERT INTO		crea(cod_off,cf_org)		VALUES(1 ,'2938DHU3D37HDUH3');
+INSERT INTO		crea(cod_off,cf_org)		VALUES(2 ,'DHU2I3DH2U3IDHDU');
+INSERT INTO		crea(cod_off,cf_org)		VALUES(3 ,'DHU32I3DH23UDHHD');
+INSERT INTO		crea(cod_off,cf_org)		VALUES(4 ,'DHU32I3DH2I3UDHD');
+INSERT INTO		crea(cod_off,cf_org)		VALUES(5 ,'2387DHU32ID23DHD');
+INSERT INTO		crea(cod_off,cf_org)		VALUES(6 ,'237DHU32IDHU32ID');
+INSERT INTO		crea(cod_off,cf_org)		VALUES(7 ,'DHU2I3DH23UD2DHH');
+INSERT INTO		crea(cod_off,cf_org)		VALUES(8 ,'DHU2I3DH23UDH3HD');
+INSERT INTO		crea(cod_off,cf_org)		VALUES(9 ,'DHUI23DH32IDH3HH');
+INSERT INTO		crea(cod_off,cf_org)		VALUES(10,'23IUDH2I3DH23UHD');
+INSERT INTO		crea(cod_off,cf_org)		VALUES(11,'23DUH23DH3UDHDU2');
+INSERT INTO		crea(cod_off,cf_org)		VALUES(12,'2IU3DH23IDH3U2HD');
+INSERT INTO		crea(cod_off,cf_org)		VALUES(13,'2I3UD2H3UDH23HDD');
+INSERT INTO		crea(cod_off,cf_org)		VALUES(14,'I23UDH23DUH32DDH');
+INSERT INTO		crea(cod_off,cf_org)		VALUES(15,'3I2UDHU23DH23782');
+
+--%%%%%		ORGANIZZA
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Napoli',				to_date('12/10/2019','dd/mm/yyyy'),'ISERVE99S70F8396');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Benevento',				to_date('06/10/2019','dd/mm/yyyy'),'OPPIOM98B18F8395');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Avellino',				to_date('24/10/2019','dd/mm/yyyy'),'PSCOLS99E14F352D');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Caserta',				to_date('23/10/2019','dd/mm/yyyy'),'CARINA92C13F8396');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Salerno',				to_date('30/10/2019','dd/mm/yyyy'),'MSCTRV93B12A783W');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Casalnuovo di Napoli',	to_date('07/10/2019','dd/mm/yyyy'),'LCNCER93A52A509V');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Giugliano',				to_date('18/10/2019','dd/mm/yyyy'),'CONTRA92P51B9053');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Torre del Greco',		to_date('16/10/2019','dd/mm/yyyy'),'MONTRA96P57F8392');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Pozzuoli',				to_date('19/10/2019','dd/mm/yyyy'),'CREMAI92S17F8395');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Casoria',				to_date('22/10/2019','dd/mm/yyyy'),'POISAA91T58F8399');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Afragola',				to_date('25/10/2019','dd/mm/yyyy'),'FOLIER91C22B9054');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Acerra',				to_date('28/10/2019','dd/mm/yyyy'),'CORAAL98B24F8453');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Portici',				to_date('09/10/2019','dd/mm/yyyy'),'CORAAL98B24F8394');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Ercolano',				to_date('01/10/2019','dd/mm/yyyy'),'ECHDJ23CDJ32FNJ7');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Aversa',				to_date('26/10/2019','dd/mm/yyyy'),'PCJBEBNSUE345FN5');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Napoli',				to_date('12/11/2019','dd/mm/yyyy'),'KI214CNJEB3FJ4F6');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Benevento',				to_date('06/11/2019','dd/mm/yyyy'),'CNJEI3DQBHJ3F4F5');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Avellino',				to_date('24/11/2019','dd/mm/yyyy'),'JN43SK345FCBHJ24');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Caserta',				to_date('23/11/2019','dd/mm/yyyy'),'CE34CS38YHDB3CS3');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Salerno',				to_date('30/11/2019','dd/mm/yyyy'),'NDJW3FNF4IFNJ4J2');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Casalnuovo di Napoli',	to_date('07/11/2019','dd/mm/yyyy'),'CRTRND86R18F8392');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Giugliano',				to_date('18/11/2019','dd/mm/yyyy'),'ISERVE99S70F8396');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Torre del Greco',		to_date('16/11/2019','dd/mm/yyyy'),'OPPIOM98B18F8395');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Pozzuoli',				to_date('19/11/2019','dd/mm/yyyy'),'PSCOLS99E14F352D');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Casoria',				to_date('22/11/2019','dd/mm/yyyy'),'CARINA92C13F8396');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Afragola',				to_date('25/11/2019','dd/mm/yyyy'),'MSCTRV93B12A783W');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Acerra',				to_date('28/11/2019','dd/mm/yyyy'),'LCNCER93A52A509V');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Portici',				to_date('09/11/2019','dd/mm/yyyy'),'CONTRA92P51B9053');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Ercolano',				to_date('01/11/2019','dd/mm/yyyy'),'MONTRA96P57F8392');
+INSERT INTO 	organizza(loc_eve,data_inizio_eve,cf_org)		VALUES('Aversa',				to_date('26/11/2019','dd/mm/yyyy'),'CE34CS38YHDB3CS3');
